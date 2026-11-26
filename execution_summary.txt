@@ -1,0 +1,34 @@
+
+GPU TIC-TAC-TOE CHAMPIONSHIP
+============================
+
+Project: Two CUDA-based competing game players
+
+GPU Player 1: Winning-first strategy
+GPU Player 2: Defensive and positional strategy
+
+Implementation:
+- CUDA C++
+- Python
+- NumPy
+- Matplotlib
+- Multithreading
+
+Execution:
+Both competitors successfully played against each other.
+
+Final match result:
+DRAW
+
+Verification:
+1. Player 1 move selection: PASS
+2. Player 2 move selection: PASS
+3. Winner detection: PASS
+4. Draw detection: PASS
+5. Project file verification: PASS
+
+Architecture:
+Two independent CUDA competitors execute in separate
+worker threads with synchronized access to one physical GPU.
+
+PROJECT STATUS: SUCCESSFUL
